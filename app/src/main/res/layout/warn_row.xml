@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+
+  <LinearLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/warn_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Warn Title"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:textSize="17dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/warn_place"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Warn Place"
+          android:textColor="@color/black"
+          android:padding="10dp"
+          android:textSize="14dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/warn_des"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Warn description"
+          android:textColor="@color/black"
+          android:padding="10dp" />
+
+      <ImageView
+          android:src="@drawable/logo"
+          android:id="@+id/warn_image"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:scaleType="centerCrop"
+          android:adjustViewBounds="true" />
+
+      <TextView
+          android:textSize="10dp"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:text="testtest"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceSmall"
+          android:id="@+id/warn_by"
+          android:padding="4dp" />
+
+  </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

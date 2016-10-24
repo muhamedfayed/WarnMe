@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WarnMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_warn">New Warn</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="have_account">Already have account ?</string>
+    <string name="havenot_account">Do not have account ?</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Log in</string>
+    <string name="creating_account">Create an account</string>
+    <string name="logging_in">Please log in !</string>
+    <string name="title_activity_signin">SignIn</string>
+    <string name="title_activity_setup">Account setup page</string>
+</resources>
